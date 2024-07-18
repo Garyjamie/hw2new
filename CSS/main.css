@@ -1,0 +1,25 @@
+nav{
+    display:inline-block;
+    width:80%;
+}
+nav img{
+    width:10%;
+}
+.grid{
+    display:grid;
+    grid-template-columns:40% 40%;
+    justify-content:space-between;
+    align-items:center;
+    row-gap:1%;
+}
+.grid img{
+    width:100%;
+}
+.flex{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+}
+.flex img{
+    width:50%;
+}
